@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Page
   create: none
-  match: " .forestry"
+  match: "**/*"
   templates:
   - page
 upload_dir: uploads
