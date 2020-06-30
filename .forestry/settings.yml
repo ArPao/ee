@@ -8,7 +8,7 @@ sections:
   path: ".forestry"
   label: Page
   create: all
-  match: front_matter/templates/page.yml
+  match: "**/*"
   templates:
   - page
 upload_dir: uploads
