@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ".forestry/front_matter/templates"
+  path: ".forestry/front_matter/templates/page.yml"
   label: Page
   create: all
   match: "**/*"
