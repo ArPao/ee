@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: ".forestry"
   label: Page
-  create: none
-  match: "**/*"
+  create: all
+  match: front_matter/templates/page.yml
   templates:
   - page
 upload_dir: uploads
