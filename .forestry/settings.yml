@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Highlight
   create: all
-  match: "**/*"
+  match: highlight/
   templates:
   - highlight
 upload_dir: uploads
