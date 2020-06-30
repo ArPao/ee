@@ -1,4 +1,22 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: page_sections
+  type: blocks
+  label: Page sections
+  template_types:
+  - highlight
+  config:
+    min: 
+    max: 
